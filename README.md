@@ -49,8 +49,11 @@ npm start
 Cách sử dụng
 
 Đăng ký/Đăng nhập: Tạo tài khoản mới hoặc đăng nhập bằng tài khoản hiện có.
+
 Quản lý bài viết: Tạo, chỉnh sửa hoặc xóa bài viết sau khi đăng nhập.
+
 Bình luận: Thêm bình luận vào các bài viết.
+
 Tìm kiếm: Sử dụng chức năng tìm kiếm để tìm bài viết theo từ khóa.
 
 🛠️ Công Nghệ
