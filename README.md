@@ -52,6 +52,7 @@ Xem chi tiết: GET /posts/:id
 Chỉnh sửa: GET /posts/:id/edit & PUT /posts/:id
 
 Xóa: DELETE /posts/:id
+
 🗂️ Cấu Trúc Thư Mục
 Blog-app-MongoDB/
 ├─ .env
@@ -74,6 +75,7 @@ Blog-app-MongoDB/
 └─ public/
    └─ css/
       └─ style.css
+      
 🛠️ Công Nghệ
 Node.js
 Express
