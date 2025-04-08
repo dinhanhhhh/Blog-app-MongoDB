@@ -1,6 +1,6 @@
 # Blog‑app‑MongoDB
 
-> Ứng dụng Blog đơn giản sử dụng Node.js, Express, EJS và MongoDB- CRUD
+Blog-app-MongoDB là một ứng dụng blog đơn giản được xây dựng bằng MongoDB, Node.js và Express.js. Ứng dụng này cho phép người dùng tạo, quản lý bài viết, bình luận và tìm kiếm nội dung.
 
 ## 📖 Mục Lục
 
@@ -23,13 +23,12 @@ Blog‑app‑MongoDB là một ứng dụng web mẫu cho phép:
 
 ## 🚀 Tính Năng
 
-- **CRUD Posts**  
-- **Flash Messages** (success/error)  
-- **Responsive** với CSS Grid/Flex  
-- **Search** (nếu đã triển khai)  
-
+Các tính năng chính
+Quản lý bài viết: Tạo, đọc, cập nhật và xóa các bài viết blog.
+Xác thực người dùng: Hỗ trợ đăng ký, đăng nhập và phân quyền.
+Hệ thống bình luận: Người dùng có thể bình luận trên các bài viết.
+Tìm kiếm: Tìm kiếm bài viết theo từ khóa.
 ## 💻 Cài Đặt
-
 1. Clone repository:
    ```bash
    git clone https://github.com/dinhanhhhh/Blog-app-MongoDB.git
@@ -43,46 +42,31 @@ PORT=5000
 npm start
 5. Mở http://localhost:5000 trên trình duyệt.
 🔍 Sử Dụng
-Trang chủ: GET /
-
-Tạo bài viết: GET /posts/new & POST /posts
-
-Xem chi tiết: GET /posts/:id
-
-Chỉnh sửa: GET /posts/:id/edit & PUT /posts/:id
-
-Xóa: DELETE /posts/:id
-
-🗂️ Cấu Trúc Thư Mục
-Blog-app-MongoDB/
-├─ .env
-├─ .gitignore
-├─ app.js
-├─ package.json
-├─ models/
-│  └─ post.js
-├─ routes/
-│  ├─ index.js
-│  └─ posts.js
-├─ views/
-│  ├─ partials/
-│  │  ├─ header.ejs
-│  │  └─ footer.ejs
-│  ├─ index.ejs
-│  ├─ new.ejs
-│  ├─ show.ejs
-│  └─ edit.ejs
-└─ public/
-   └─ css/
-      └─ style.css
-      
+Cách sử dụng
+Đăng ký/Đăng nhập: Tạo tài khoản mới hoặc đăng nhập bằng tài khoản hiện có.
+Quản lý bài viết: Tạo, chỉnh sửa hoặc xóa bài viết sau khi đăng nhập.
+Bình luận: Thêm bình luận vào các bài viết.
+Tìm kiếm: Sử dụng chức năng tìm kiếm để tìm bài viết theo từ khóa.
 🛠️ Công Nghệ
-Node.js
-Express
-EJS
-MongoDB (Atlas / Local)
-Mongoose
+Công nghệ sử dụng
+Node.js: Nền tảng phía server.
+Express.js: Framework web để xử lý các tuyến đường (routes) và yêu cầu HTTP.
+MongoDB: Cơ sở dữ liệu NoSQL để lưu trữ dữ liệu.
+Mongoose: Thư viện hỗ trợ tương tác với MongoDB.
+Passport.js (có thể): Để quản lý xác thực người dùng.
 body-parser, method-override, express-session, connect-flash
+Cấu trúc cơ sở dữ liệu
+Dự án có sử dụng các schema MongoDB như sau:
+-Post (Bài viết):
+title: Tiêu đề bài viết (chuỗi).
+content: Nội dung bài viết (chuỗi).
+author: Tác giả (tham chiếu đến User).
+createdAt: Ngày tạo (ngày giờ).
+updatedAt: Ngày cập nhật (ngày giờ).
+-User (Người dùng):
+username: Tên đăng nhập (chuỗi).
+password: Mật khẩu (chuỗi, mã hóa).
+email: Địa chỉ email (chuỗi).
 🤝 Đóng Góp
 1. Fork repo này.
 2. Tạo branch feature:
