@@ -14,12 +14,13 @@ Blog-app-MongoDB là một ứng dụng blog đơn giản được xây dựng b
 
 ## 📌 Giới Thiệu
 
-Blog‑app‑MongoDB là một ứng dụng web mẫu cho phép:
+
+Blog‑app‑MongoDB là một ứng dụng web mẫu được xây dựng để học hỏi và thực hành lập trình với MongoDB, Node.js và Express.js. Ứng dụng này phù hợp cho các nhà phát triển muốn tìm hiểu cách xây dựng một blog đơn giản với các tính năng cơ bản như:
 
 - Tạo, đọc, sửa, xóa (CRUD) bài viết.  
-- Hiển thị flash messages.  
-- Hỗ trợ PUT/DELETE qua form với method-override.  
-
+- Hiển thị flash messages để thông báo kết quả thao tác.  
+- Hỗ trợ các phương thức PUT/DELETE qua form với method-override. 
+ 
 ## 🚀 Tính Năng
 
 Các tính năng chính
