@@ -89,6 +89,6 @@ email: Địa chỉ email (chuỗi).
 git checkout -b feature/TenTinhNang
 3.Commit thay đổi:
 git commit -m "Add TenTinhNang"
-4.Push lên branch:
+4. Push lên branch:
 git push origin feature/TenTinhNang
 5. Tạo Pull Request trên GitHub.
