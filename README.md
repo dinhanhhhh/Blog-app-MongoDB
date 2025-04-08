@@ -11,7 +11,6 @@ Blog-app-MongoDB là một ứng dụng blog đơn giản được xây dựng b
 - [Cấu Trúc Thư Mục](#-cấu-trúc-thư-mục)  
 - [Công Nghệ](#-công-nghệ)  
 - [Đóng Góp](#-đóng-góp)  
-- [Giấy Phép](#-giấy-phép)  
 
 ## 📌 Giới Thiệu
 
@@ -41,20 +40,22 @@ PORT=5000
 4.Chạy ứng dụng:
 npm start
 5. Mở http://localhost:5000 trên trình duyệt.
+   
 🔍 Sử Dụng
 Cách sử dụng
 Đăng ký/Đăng nhập: Tạo tài khoản mới hoặc đăng nhập bằng tài khoản hiện có.
 Quản lý bài viết: Tạo, chỉnh sửa hoặc xóa bài viết sau khi đăng nhập.
 Bình luận: Thêm bình luận vào các bài viết.
 Tìm kiếm: Sử dụng chức năng tìm kiếm để tìm bài viết theo từ khóa.
+
 🛠️ Công Nghệ
 Công nghệ sử dụng
 Node.js: Nền tảng phía server.
 Express.js: Framework web để xử lý các tuyến đường (routes) và yêu cầu HTTP.
 MongoDB: Cơ sở dữ liệu NoSQL để lưu trữ dữ liệu.
 Mongoose: Thư viện hỗ trợ tương tác với MongoDB.
-Passport.js (có thể): Để quản lý xác thực người dùng.
-body-parser, method-override, express-session, connect-flash
+JWT (JSON Web Token): Công cụ dùng để quản lý xác thực người dùng, cung cấp cách truyền thông tin an toàn giữa client và server.
+
 Cấu trúc cơ sở dữ liệu
 Dự án có sử dụng các schema MongoDB như sau:
 -Post (Bài viết):
@@ -67,6 +68,7 @@ updatedAt: Ngày cập nhật (ngày giờ).
 username: Tên đăng nhập (chuỗi).
 password: Mật khẩu (chuỗi, mã hóa).
 email: Địa chỉ email (chuỗi).
+
 🤝 Đóng Góp
 1. Fork repo này.
 2. Tạo branch feature:
