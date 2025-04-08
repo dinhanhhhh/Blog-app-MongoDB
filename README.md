@@ -35,11 +35,11 @@ Tìm kiếm: Tìm kiếm bài viết theo từ khóa.
 2. Cài dependencies:
 npm install
 
-3.Tạo file .env ở gốc dự án:
+3. Tạo file .env ở gốc dự án:
 MONGODB_URI=<Your MongoDB URI>
 PORT=5000
 
-4.Chạy ứng dụng:
+4. Chạy ứng dụng:
 npm start
 
 5. Mở http://localhost:5000 trên trình duyệt.
@@ -58,10 +58,15 @@ Tìm kiếm: Sử dụng chức năng tìm kiếm để tìm bài viết theo t�
 
 🛠️ Công Nghệ
 Công nghệ sử dụng
+
 Node.js: Nền tảng phía server.
+
 Express.js: Framework web để xử lý các tuyến đường (routes) và yêu cầu HTTP.
+
 MongoDB: Cơ sở dữ liệu NoSQL để lưu trữ dữ liệu.
+
 Mongoose: Thư viện hỗ trợ tương tác với MongoDB.
+
 JWT (JSON Web Token): Công cụ dùng để quản lý xác thực người dùng, cung cấp cách truyền thông tin an toàn giữa client và server.
 
 Cấu trúc cơ sở dữ liệu
