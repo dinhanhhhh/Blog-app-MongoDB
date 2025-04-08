@@ -34,15 +34,20 @@ Tìm kiếm: Tìm kiếm bài viết theo từ khóa.
    cd Blog-app-MongoDB
 2. Cài dependencies:
 npm install
+
 3.Tạo file .env ở gốc dự án:
 MONGODB_URI=<Your MongoDB URI>
 PORT=5000
+
 4.Chạy ứng dụng:
 npm start
+
 5. Mở http://localhost:5000 trên trình duyệt.
    
 🔍 Sử Dụng
+
 Cách sử dụng
+
 Đăng ký/Đăng nhập: Tạo tài khoản mới hoặc đăng nhập bằng tài khoản hiện có.
 Quản lý bài viết: Tạo, chỉnh sửa hoặc xóa bài viết sau khi đăng nhập.
 Bình luận: Thêm bình luận vào các bài viết.
